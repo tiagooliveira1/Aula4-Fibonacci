@@ -13,7 +13,7 @@ public class Aula4_Fibonacci
             somaAtual = numeroAtual+numeroAnterior;
             numeroAnterior = numeroAtual;
             numeroAtual = somaAtual;
-            System.out.println(somaAtual);
+            System.out.print(somaAtual+"-");
         }
     }
 
